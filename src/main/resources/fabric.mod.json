@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "forgeecho",
+  "version": "${version}",
+  "name": "The Forge's Echo",
+  "description": "Adds /Forge abilities give Echo, an echo shard that fires a devastating sonic beam.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.forgeecho.ForgeEchoMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
